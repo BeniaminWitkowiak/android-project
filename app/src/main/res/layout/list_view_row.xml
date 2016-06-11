@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <ImageView
+        android:id="@+id/car1"
+        android:src="@drawable/car1"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        android:layout_marginTop="0dp"
+        />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/car_name"
+        android:layout_toRightOf="@id/car1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:text="Marka Model"
+        android:textStyle="bold"
+        android:textColor="@color/green4"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listview_engine_size"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_toRightOf="@+id/car1"
+        android:layout_below="@+id/car_name"
+        android:text="Silnik: "
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/grey"
+        />
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listview_engine_size_value"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@id/car_name"
+        android:layout_toRightOf="@+id/listview_engine_size"
+        android:text="0.0"
+        android:textColor="@color/black"
+        />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listview_avg_consumption"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@id/listview_engine_size"
+        android:layout_toRightOf="@+id/car1"
+        android:text="Spalanie: "
+        android:textColor="@color/grey"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listview_avg_consumption_value"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@id/listview_engine_size_value"
+        android:layout_toRightOf="@+id/listview_avg_consumption"
+        android:text="0.0"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+
+    </RelativeLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/addAnotherCar_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/addAnotherCar_header"
+                android:textColor="@color/green3"
+                android:textStyle="bold"
+                />
+
+
+
+            <Button
+                android:id="@+id/buttonAddCarPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Zrób zdjęcie"
+                android:background="@color/green2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:onClick="TakePhoto"
+                />
+
+
+            <ImageView
+                android:id="@+id/imageViewCarAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxHeight="300dp"
+                android:minHeight="200dp"
+                android:minWidth="200dp"
+                android:maxWidth="300dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/addAnotherCar_brand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="@string/addAnotherCar_brand"
+                android:textColor="@color/green4"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/addAnotherCar_brand_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fuelPrice"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="text"
+                />
+
+
+
+            <TextView
+                android:id="@+id/addAnotherCar_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/addAnotherCar_model"
+                android:textColor="@color/green4"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/addAnotherCar_model_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fuelPrice"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="text"
+                />
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/addAnotherCar_engineSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/addAnotherCar_engineSize"
+                android:textColor="@color/green4"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/addAnotherCar_engineSize_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fuelPrice"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="numberDecimal"
+
+                />
+
+
+            <TextView
+                android:id="@+id/addAnotherCar_averageConsumption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/addAnotherCar_averageConsumption"
+                android:textColor="@color/green4"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:id="@+id/addAnotherCar_averageConsumption_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fuelPrice"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="numberDecimal"
+
+                />
+
+
+
+
+            <Button
+                android:id="@+id/buttonAddAnotherCar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="+ Dodaj"
+                android:background="@color/green2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Car expenditures</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="calculate_average_consumption_header">Oblicz średnie spalanie</string>
+    <string name="mileage">Przebieg: </string>
+    <string name="petrol">Ile litrów zatankowano: </string>
+    <string name="your_car_consumption">Twój samochód spalił: </string>
+    <string name="your_car_consumption_value">0L /100km </string>
+    <string name="choose_function">Wybierz co chcesz zrobić: </string>
+    <string name="calculate_costs">Zaplanuj koszty podróży</string>
+    <string name="calculate_consumption">Oblicz średnie spalanie</string>
+    <string name="distance">Dystans:</string>
+    <string name="fuelPrice">Cena paliwa:</string>
+    <string name="averageConsumption_label">Średnie spalanie:</string>
+    <string name="calculate">Oblicz !</string>
+    <string name="your_costs">Podróż wyniesie: </string>
+    <string name="your_costs_value">0zł</string>
+    <string name="addAnotherCar">+ Dodaj auto</string>
+    <string name="addAnotherCar_header">Dodaj auto</string>
+    <string name="addAnotherCar_photo">Zdjęcie</string>
+    <string name="addAnotherCar_brand">Marka</string>
+    <string name="addAnotherCar_model">Model</string>
+    <string name="addAnotherCar_engineSize">Pojemność silnika</string>
+    <string name="addAnotherCar_averageConsumption">Średnie spalanie</string>
+</resources>

@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/loginHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/choose_function"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/green3"
+            android:textStyle="bold"/>
+
+
+
+
+        <Button
+            android:id="@+id/calculate_costs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/calculate_costs"
+            android:background="@color/green3"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/calculate_consumption1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:padding="20dp"
+            android:layout_below="@+id/loginHeader"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/calculate_consumption"
+            android:background="@color/green3"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

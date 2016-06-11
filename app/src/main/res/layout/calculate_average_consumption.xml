@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/calculate_average_consumption_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/calculate_average_consumption_header"
+        android:textColor="@color/green3"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:text="@string/mileage"
+        android:textColor="@color/green4"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:id="@+id/distance_input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/distance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/black"
+
+        />
+
+
+    <TextView
+        android:id="@+id/fuelPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="@string/petrol"
+        android:textColor="@color/green4"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/fuelPrice_input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fuelPrice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="numberDecimal"
+
+        />
+
+    <Button
+        android:id="@+id/buttonCalculate_average_consumption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/calculate"
+        android:background="@color/green2"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/your_car_consumption"
+        android:textSize="20dp"
+        android:textColor="@color/green2"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/your_car_consumption_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_car_consumption_value"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:textColor="@color/green4"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
